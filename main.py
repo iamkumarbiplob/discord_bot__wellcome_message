@@ -5,7 +5,7 @@ from discord.ext import commands
 intents = discord.Intents()
 intents.members = True
 
-TOKEN = 'Token'
+TOKEN = 'YOUR_TOKEN_FROM_DEVLOPER_PORTAL'
 bot=commands.Bot(command_prefix='!',intents=intents)
 
 #Events
